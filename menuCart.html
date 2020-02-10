@@ -1,0 +1,70 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Akshay\html/Menuu.css">
+<script>
+function myFunction() {
+  document.getElementById("cart").innerHTML = "Sandwich added to cart successfully";
+}
+function myFunction1() {
+  document.getElementById("cart").innerHTML = "Burger added to cart successfully";
+}
+function myFunction2() {
+  document.getElementById("cart").innerHTML = "Pizza added to cart successfully";
+}
+</script>
+</head>
+
+
+<body>
+<div id="main">
+	<div id="header">
+	truYum <img src="C:\Akshay\html/fork3.jpg" height="40" width="40" align="center"> 
+	<div id="menu"><a href="#">Menu</a>
+	<a href="#">Cart</a>
+	</div>
+	</div>
+	<br>
+	<div id="body">
+	<center><h1>Menu Items</h1>
+	<h3 id="cart"></h3></center>
+	
+	<table align="center" cellpadding="5px">
+	<tr align="center">
+	<th align="left">Name</th>
+	<th>Free delivery</th>
+	<th align="right">Price</th>
+	<th>Category</th>
+	<th>Action</th>
+	</tr>
+	<tr align="center">
+	<td align="left">Sandwich</td>
+	<td>Yes</td>
+	<td align="right">Rs123.40</td>
+	<td>Main Course</td>
+	<td><a id="cart1" href="#" onclick="myFunction()">Add to cart</td>
+	</tr>
+	<tr align="center">
+	<td align="left">Burger</td>
+	<td>Yes</td>
+	<td align="right">Rs.60.00</td>
+	<td>Starters</td>
+	<td><a id="cart1" href="#" onclick="myFunction1()">Add to cart</td>
+	</tr>
+	<tr align="center">
+	<td align="left">Pizza</td>
+	<td>Yes</td>
+	<td align="right">Rs345.20</td>
+	<td>Starters</td>
+	<td><a id="cart1" href="#" onclick="myFunction2()">Add to cart</td>
+	</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	</div>
+<div id="footer">
+Copyright © 2019
+</div>		
+</div>
+</body>
+</html>

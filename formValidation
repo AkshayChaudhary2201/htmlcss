@@ -1,0 +1,11 @@
+<html>
+<head>
+</head>
+<body>
+<form>
+Name:<input type="text" name="name">
+<br>
+Email:<input type="text" name="email">
+</form>
+</body>
+</html>
